@@ -11,7 +11,7 @@
             */
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-
+            // this is a change
             int engineSize = readInt("Please enter your engine size : "); // 2000 'A', 1999 => 'B'
             char engineClass = getEngineClass(engineSize);
 
